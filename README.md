@@ -1,4 +1,4 @@
-# ChatGPT Asset Class Narrative Finder
+# ChatGPT - Discover Historical Asset Class Narratives
 
 This project uses ChatGPT to find historical narratives within any chosen asset class and chosen year. 
 Previous answers are stored and passed to future questions to iteratively dig deep into history to discover deep narratives of the era.
