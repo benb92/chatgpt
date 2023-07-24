@@ -41,6 +41,4 @@ def update_map(n_clicks, Asset_Class, Year):
     return [html.Div(dash_dangerously_set_inner_html.DangerouslySetInnerHTML(f"🎨Painting the picture of {Asset_Class} in {Year}<br/><br/><br/>{chatgpt_answer}"))]
 
 
-
-if __name__ == '__main__':
-    app.run_server(debug=False)
+app.run_server(debug=False)
