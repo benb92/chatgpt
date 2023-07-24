@@ -38,7 +38,7 @@ def update_map(n_clicks, Asset_Class, Year):
     chatgpt_answer = Ask_ChatGPT(asset_class=Asset_Class, year=Year)
     chatgpt_answer = chatgpt_answer.replace('\n', '<br/>')
 
-    return [html.Div(dash_dangerously_set_inner_html.DangerouslySetInnerHTML(f"🎨Painting the picture of {Asset_Class} in {Year}'<br/>''<br/>'. \n {chatgpt_answer}"))]
+    return [html.Div(dash_dangerously_set_inner_html.DangerouslySetInnerHTML(f"🎨Painting the picture of {Asset_Class} in {Year}<br/><br/><br/>{chatgpt_answer}"))]
 
 
 
