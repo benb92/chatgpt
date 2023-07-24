@@ -15,6 +15,10 @@ touch .env
 ```
 
 - Store your chatgpt token in the following format within the .env file:
+
+Get the token from https://platform.openai.com/
+Click your account top right then "View API Keys" then click "+ Create new secret key"
+
 ```
 CHATGPT=HereIsTheVeryLongChatGPTToken
 ```
