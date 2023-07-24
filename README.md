@@ -15,7 +15,9 @@ touch .env
 ```
 
 - Store your chatgpt token in the following format within the .env file:
+```
 CHATGPT=HereIsTheVeryLongChatGPTToken
+```
 
 ### Install the required python libraries to run the program
 ```
